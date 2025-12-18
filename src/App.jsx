@@ -4,13 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App(){
+  let name ="kanishka"
+  let occ="developer"
   return (
-    <>
-      <h1>Heyy</h1>
-      <h2>I'm Kanishka</h2> 
-    </>
+    <dashboard name={name} occ={occ}></dashboard>
   )
   }
 
-  
 export default App                                                    
