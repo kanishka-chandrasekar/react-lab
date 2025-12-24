@@ -1,9 +1,11 @@
-function Dashboard({name,occ}){
+import {StrictMode} from "react"
+import App from "../App"
+import Card from "./Card"
+
+function Dashboard({name,occ,nameChange})
+{
    return(
-    <>
-        <h1>{hello}</h1>
-        <h1>{kanishka}</h1>
-    </>
+      <Card fullName={name} occ={occ} nameChange={nameChange}/> 
    ) 
 }
 
